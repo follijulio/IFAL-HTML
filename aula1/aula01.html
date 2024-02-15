@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input placeholder="peso" type="number" id="peso" />
+    <input placeholder="altura" type="number" id="altura" />
+    <button onclick="calcular()">Calcular</button>
+  </body>
+  <script>
+    function calcular() {
+      var peso = document.getElementById("peso").value;
+      var altura = document.getElementById("altura").value;
+      var imc = peso / altura ** 2;
+      alert(imc);
+    }
+  </script>
+</html>
