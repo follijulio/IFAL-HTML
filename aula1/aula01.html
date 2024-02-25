@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>calculadora </title>
   </head>
   <body>
+    <div class="">
+      <input id="display" class="display" disabled/>
+    </div>
     <input placeholder="peso" type="number" id="peso" />
     <input placeholder="altura" type="number" id="altura" />
     <button onclick="calcular()">Calcular</button>
+    
   </body>
   <script>
     function calcular() {
       var peso = document.getElementById("peso").value;
       var altura = document.getElementById("altura").value;
       var imc = peso / altura ** 2;
-      alert(imc);
+      document.getElementById("display").value = imc;
+      var varc = parseFloat(prompt("DIGITE O VALOR: "))
     }
   </script>
 </html>
