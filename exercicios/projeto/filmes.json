@@ -70,5 +70,32 @@
     "autor": "J. K. Rowling",
     "lancamento": "2011",
     "foto": "https://img.elo7.com.br/product/zoom/2657628/big-poster-harry-potter-e-as-reliquias-da-morte-lo01-90x60-presente-geek.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "texto1": "Um épico fantástico que introduz brilhantemente o mundo de Tolkien ao público. No entanto, algumas partes da história poderiam ter sido mais desenvolvidas para uma experiência cinematográfica mais rica.",
+    "texto2": "A adaptação visual dos cenários e dos personagens é notável, e a trilha sonora complementa perfeitamente a atmosfera épica. No entanto, algumas partes da trama podem parecer apressadas.",
+    "autor": "J.R.R. Tolkien",
+    "lancamento": "2001",
+    "foto": "https://img.elo7.com.br/product/main/2692755/poster-o-senhor-dos-aneis-a-sociedade-do-anel-lo05-90x60-cm-geek.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Star Wars: Episódio IV - Uma Nova Esperança",
+    "texto1": "Um clássico atemporal que deu início a uma das maiores sagas da história do cinema. No entanto, algumas partes da narrativa podem parecer datadas para o público contemporâneo.",
+    "texto2": "A atmosfera épica e os personagens carismáticos são os pontos fortes deste filme. No entanto, certos elementos da trama podem parecer previsíveis para os espectadores modernos.",
+    "autor": "George Lucas",
+    "lancamento": "1977",
+    "foto": "https://i.pinimg.com/originals/f2/1d/92/f21d9251342c99d4c7b50e93d8700f66.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Jurassic Park",
+    "texto1": "Um marco no cinema de aventura e ficção científica, que ainda impressiona pela qualidade dos efeitos especiais. No entanto, a profundidade dos personagens poderia ter sido mais explorada.",
+    "texto2": "A inovação técnica e a tensão constante são os pontos fortes deste filme. No entanto, a falta de desenvolvimento emocional dos personagens pode deixar os espectadores desejando mais.",
+    "autor": "Michael Crichton",
+    "lancamento": "1993",
+    "foto": "https://i.pinimg.com/736x/51/ba/64/51ba64b2e61f820e0e86bdd2f4c6e92c.jpg"
   }
 ]
