@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="./index.html">
+        <p>
+          <ion-icon name="caret-back-outline"></ion-icon>
+        </p>
+      </a>
+      <h1 class="titulo" id="titulo"></h1>
+    </nav>
+    <main>
+      <section class="resumo">
+        <img src="" id="foto" />
+        <div>
+          <p id="texto_1"></p>
+          <p id="texto_2"></p>
+        </div>
+      </section>
+      <section class="infos_adicionais">
+        <div>
+          <p>
+            O autor(a):
+            <p id="autor" ></p>
+          </p>
+        </div>
+        <div>
+          <p>
+            Lançamento:
+            <p id="lancamento" ></p>
+          </p>
+        </div>
+        </section>
+    </main>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="renderizacao.js"></script>
+</html>
