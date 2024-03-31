@@ -20,14 +20,7 @@ function carregarPagina(id) {
     .then((response) => response.json())
     .then((data) => {
       const filme = data.find((item) => item.id == id);
-      window.location.href = `modelo.html?
-            id=${filme.id}
-            &titulo=${filme.titulo}
-            &texto1=${filme.texto1}
-            &texto2=${filme.texto2}
-            &autor=${filme.autor}
-            &lancamento=${filme.lancamento}
-            &foto=${filme.foto}`;
+      window.location.href = `modelo.html?id=${filme.id}`;
     })
     .catch((error) =>
       console.error("Erro ao carregar os dados do filme:", error)
