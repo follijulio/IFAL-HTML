@@ -70,5 +70,68 @@
     "autor": "J. K. Rowling",
     "lancamento": "2011",
     "foto": "https://img.elo7.com.br/product/zoom/2657628/big-poster-harry-potter-e-as-reliquias-da-morte-lo01-90x60-presente-geek.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "texto1": "Uma jornada épica que mergulha o espectador no mundo fantástico de J.R.R. Tolkien. 'O Senhor dos Anéis: A Sociedade do Anel' é uma obra-prima do cinema que cativa desde os primeiros minutos. A história segue a jornada de Frodo Bolseiro e a Sociedade do Anel enquanto eles buscam destruir o Um Anel e derrotar Sauron. A adaptação visual dos cenários é deslumbrante, criando paisagens impressionantes e criaturas fantásticas que dão vida à Terra-média. Além disso, a trilha sonora envolvente de Howard Shore complementa perfeitamente cada momento do filme, elevando a experiência a um novo patamar. No entanto, algumas partes da história poderiam ter sido mais desenvolvidas, especialmente em relação aos personagens secundários, que às vezes parecem subutilizados.",
+    "texto2": "A narrativa habilmente entrelaça múltiplas histórias e subtramas, criando um mundo rico e complexo que prende a atenção do espectador. As performances do elenco são excepcionais, com destaque para Ian McKellen como Gandalf e Viggo Mortensen como Aragorn. No entanto, algumas partes da trama podem parecer apressadas, deixando de explorar completamente certos aspectos do livro. Apesar disso, 'O Senhor dos Anéis: A Sociedade do Anel' permanece como uma conquista monumental do cinema, estabelecendo um padrão elevado para as adaptações cinematográficas de obras literárias.",
+    "autor": "J.R.R. Tolkien",
+    "lancamento": "2001",
+    "foto": "link_para_imagem9.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Star Wars: Episódio IV - Uma Nova Esperança",
+    "texto1": "Um marco na história do cinema que transporta os espectadores para uma galáxia muito, muito distante. 'Star Wars: Episódio IV - Uma Nova Esperança' é uma aventura épica que mistura fantasia, ficção científica e mitologia em um conto envolvente sobre coragem, amizade e o eterno conflito entre o bem e o mal. O filme segue as aventuras de Luke Skywalker, uma jovem fazendeiro que se torna o herói relutante da Rebelião contra o império opressivo de Darth Vader. Com efeitos especiais revolucionários para sua época, 'Uma Nova Esperança' oferece aos espectadores uma experiência visualmente deslumbrante, repleta de naves espaciais, alienígenas e batalhas intergalácticas.",
+    "texto2": "Além da inovação técnica, o filme apresenta uma narrativa envolvente, repleta de personagens memoráveis e momentos emocionantes. A jornada de Luke Skywalker, Han Solo, Princesa Leia e Obi-Wan Kenobi captura a imaginação do público, enquanto eles enfrentam o poder do Império e buscam restaurar a paz na galáxia. No entanto, algumas partes da história podem parecer datadas para os espectadores contemporâneos, especialmente em termos de efeitos visuais e diálogos. Apesar disso, 'Star Wars: Episódio IV - Uma Nova Esperança' continua sendo um clássico do cinema que cativa gerações de fãs em todo o mundo.",
+    "autor": "George Lucas",
+    "lancamento": "1977",
+    "foto": "link_para_imagem10.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Jurassic Park",
+    "texto1": "Uma obra-prima da aventura e da ficção científica que redefine os limites do entretenimento cinematográfico. 'Jurassic Park' leva os espectadores a uma ilha remota habitada por dinossauros recriados através da engenharia genética. Quando um grupo de cientistas e visitantes chega ao parque, eles logo descobrem que a maravilha da criação também traz perigos inimagináveis. Dirigido por Steven Spielberg, o filme é uma montanha-russa de emoções, combinando suspense, ação e momentos de puro terror.",
+    "texto2": "Os efeitos especiais revolucionários de 'Jurassic Park' continuam impressionantes até hoje, com dinossauros totalmente digitais que parecem incrivelmente reais. No entanto, o filme vai além dos efeitos visuais, oferecendo uma narrativa envolvente e personagens bem desenvolvidos. A tensão constante e os momentos de suspense mantêm os espectadores à beira de seus assentos, enquanto o elenco talentoso, incluindo Sam Neill, Laura Dern e Jeff Goldblum, traz vida aos personagens. Apesar de algumas sequências serem datadas em termos de efeitos visuais, 'Jurassic Park' permanece como um clássico atemporal que continua a emocionar e assustar o público de todas as idades.",
+    "autor": "Michael Crichton",
+    "lancamento": "1993",
+    "foto": "link_para_imagem11.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "Indiana Jones e os Caçadores da Arca Perdida",
+    "texto1": "Uma aventura emocionante que combina ação, humor e suspense em uma jornada épica em busca de um tesouro perdido. 'Indiana Jones e os Caçadores da Arca Perdida' segue as façanhas do arqueólogo aventureiro Indiana Jones enquanto ele viaja pelo mundo em busca da lendária Arca da Aliança. Dirigido por Steven Spielberg e estrelado por Harrison Ford, o filme é uma homenagem aos clássicos filmes de aventura dos anos 1930, repleto de reviravoltas emocionantes e encontros perigosos.",
+    "texto2": "A química entre Harrison Ford e seus colegas de elenco é palpável, adicionando uma camada de autenticidade aos personagens e relacionamentos. Além disso, as sequências de ação são coreografadas com maestria, oferecendo momentos de pura adrenalina para o público. No entanto, algumas cenas podem parecer datadas para os espectadores contemporâneos, especialmente em termos de efeitos visuais. Apesar disso, 'Indiana Jones e os Caçadores da Arca Perdida' continua sendo um dos filmes mais amados e influentes da história do cinema.",
+    "autor": "George Lucas",
+    "lancamento": "1981",
+    "foto": "link_para_imagem12.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "Matrix",
+    "texto1": "Um marco no cinema de ficção científica que desafia as noções convencionais de realidade e identidade. 'Matrix' apresenta um mundo distópico onde a humanidade é escravizada por máquinas inteligentes e a realidade é apenas uma simulação virtual. O protagonista, Neo, interpretado por Keanu Reeves, é despertado para a verdadeira natureza da realidade e lidera uma rebelião contra as máquinas opressoras. O filme é uma mistura de ação alucinante, filosofia complexa e efeitos visuais inovadores.",
+    "texto2": "Além da impressionante ação e efeitos especiais, 'Matrix' oferece uma narrativa profundamente filosófica que questiona a natureza da existência e da liberdade. A abordagem visual única, com sua estética cyberpunk e cenas de luta coreografadas de forma impressionante, tornou-se icônica e influente em toda a cultura pop. No entanto, algumas partes da história podem parecer confusas ou excessivamente complexas para alguns espectadores, especialmente aqueles não familiarizados com conceitos de filosofia e tecnologia. Apesar disso, 'Matrix' permanece como um dos filmes mais impactantes e influentes da década de 1990.",
+    "autor": "Lana e Lilly Wachowski",
+    "lancamento": "1999",
+    "foto": "link_para_imagem13.jpg"
+  },
+  {
+    "id": 14,
+    "titulo": "E.T. - O Extraterrestre",
+    "texto1": "Um conto emocionante sobre amizade, empatia e o poder do amor que transcende as fronteiras do espaço e do tempo. 'E.T. - O Extraterrestre' segue a jornada de amizade entre um jovem chamado Elliott e um alienígena perdido na Terra. Dirigido por Steven Spielberg, o filme captura a imaginação e o coração do público com sua história cativante e personagens adoráveis.",
+    "texto2": "A relação entre Elliott e E.T. é o coração do filme, tocando profundamente os espectadores com sua ternura e autenticidade. Além disso, os efeitos visuais inovadores para a época deram vida ao adorável alienígena, criando uma conexão emocional imediata com o público. No entanto, algumas partes da narrativa podem parecer um tanto previsíveis para os espectadores contemporâneos, e certos elementos do filme podem parecer datados em comparação com os avanços tecnológicos atuais. Apesar disso, 'E.T. - O Extraterrestre' continua sendo uma obra-prima do cinema que encanta gerações de espectadores com sua mensagem universal de amor e amizade.",
+    "autor": "Steven Spielberg",
+    "lancamento": "1982",
+    "foto": "link_para_imagem14.jpg"
+  },
+  {
+    "id": 15,
+    "titulo": "Piratas do Caribe: A Maldição do Pérola Negra",
+    "texto1": "Uma aventura emocionante repleta de ação, humor e piratas intrépidos em busca de tesouros perdidos. 'Piratas do Caribe: A Maldição do Pérola Negra' apresenta o carismático Capitão Jack Sparrow em uma jornada épica através dos mares do Caribe. Quando Sparrow se envolve em uma busca pelo lendário Pérola Negra e enfrenta uma tripulação amaldiçoada, ele se vê em uma aventura cheia de perigos e reviravoltas inesperadas.",
+    "texto2": "O filme combina habilmente elementos de fantasia, ação e comédia, criando uma experiência cinematográfica única e envolvente. A performance icônica de Johnny Depp como Jack Sparrow é o destaque do filme, trazendo humor e charme ao personagem excêntrico. Além disso, os efeitos visuais impressionantes e as cenas de ação emocionantes mantêm o público entretido do início ao fim. No entanto, algumas partes da história podem parecer um tanto previsíveis, e certos personagens secundários poderiam ter sido mais desenvolvidos. Apesar disso, 'Piratas do Caribe: A Maldição do Pérola Negra' é uma aventura divertida e emocionante que continua a cativar o público de todas as idades.",
+    "autor": "Ted Elliott e Terry Rossio",
+    "lancamento": "2003",
+    "foto": ""
   }
 ]
