@@ -1,14 +1,27 @@
-const params = new URLSearchParams(window.location.search);
-    const titulo = params.get("titulo");
-    const foto = params.get("foto");
-    const texto_1 = params.get("texto1");
-    const texto_2 = params.get("texto2");
-    const autor = params.get("autor");
-    const lancamento = params.get("lancamento");
+const id = new URLSearchParams(window.location.search).get("id");
 
-    document.getElementById("titulo").textContent = titulo;
-    document.getElementById("foto").src = foto;
-    document.getElementById("texto_1").textContent = texto_1;
-    document.getElementById("texto_2").textContent = texto_2;
-    document.getElementById("autor").textContent = autor;
-    document.getElementById("lancamento").textContent = lancamento;
+fetch("./filmes.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const filme = data[id - 1];
+    document.getElementById("titulo").textContent = filme.titulo;
+    document.getElementById("foto").src = filme.foto;
+    document.getElementById("texto_1").textContent = filme.texto1;
+    document.getElementById("texto_2").textContent = filme.texto2;
+    document.getElementById("autor").textContent = filme.autor;
+    document.getElementById("lancamento").textContent = filme.lancamento;
+  })
+  .catch((error) => {
+    const infos_adicionais = document.querySelector(".titulo");
+    const button = document.createElement("button");
+    button.textContent = "VOLTAR A PÁGINA INICIAL";
+    button.addEventListener("click", () => {
+      carregarPaginaInicial();
+    });
+    infos_adicionais.appendChild(button);
+    console.error("Erro ao carregar os filmes:", error);
+  });
+
+function carregarPaginaInicial() {
+  window.location.replace("index.html");
+}
