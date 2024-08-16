@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        height: 2rem;
+        width: 10rem;
+      }
+
+      main {
+        background-color: navy;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        background-color: darkslateblue;
+        height: 25rem;
+        width: 35rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      input {
+        width: 25rem;
+        background-color: white;
+        margin: 0.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <div class="container">
+          <input type="number" id="C" disabled />
+          <input type="number" id="A" placeholder="valor 1" />
+          <input type="number" id="B" placeholder="valor 2" />
+          <button onclick="calcular()">CONTINUAR</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    function calcular() {
+      var tipo = "";
+      var A = parseInt(document.getElementById("A").value);
+      var B = parseInt(document.getElementById("B").value);
+      var C;
+      if (A === B) {
+        tipo = "soma";
+        C = soma(A, B);
+      } else {
+        tipo = "multiplicação";
+        C = mult(A, B);
+      }
+
+      document.getElementById("C").value = C;
+
+      const resultado = `Valor de A: ${A}\nValor de B: ${B}\nValor de C: ${C}\nTipo de cálculo feito: ${tipo}`;
+
+      const blob = new Blob([resultado], {
+        type: "text/plain;charset=utf-8",
+      });
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = "resultado.txt";
+      link.click();
+    }
+
+    function soma(A, B) {
+      return A + B;
+    }
+
+    function mult(A, B) {
+      return A * B;
+    }
+  </script>
+</html>

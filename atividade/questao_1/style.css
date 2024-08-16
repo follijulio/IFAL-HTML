@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    background-color: navy;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: darkslateblue;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+button {
+    height: 2rem;
+    width: 10rem;
+}
+
+
+input{
+    width: 25rem;
+    background-color: white;
+    margin: 0.25rem;
+}
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.15rem;
+}

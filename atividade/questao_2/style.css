@@ -1,0 +1,31 @@
+button {
+    height: 2rem;
+    width: 10rem;
+}
+
+main{
+    background-color: navy;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: darkslateblue;
+    height: 25rem;
+    width: 35rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+input{
+    width: 25rem;
+    background-color: white;
+    margin: 0.25rem;
+}

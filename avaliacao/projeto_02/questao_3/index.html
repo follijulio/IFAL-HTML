@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #buttons button {
+        height: 2rem;
+        width: 30rem;
+      }
+
+      main {
+        background-color: navy;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        background-color: darkslateblue;
+        height: 25rem;
+        width: 35rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .telas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .tela {
+        width: 25rem;
+        background-color: white;
+        margin: 0.25rem;
+      }
+      #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0.15rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h3>CALCULAR VALOR DA COMPRA</h3>
+        <div class="telas">
+          <input
+            placeholder="insira o valor inicial"
+            id="tela"
+            type="number"
+            class="tela"
+          />
+          <input
+            placeholder="valor calculado"
+            id="tela_pagamento"
+            type="number"
+            disabled
+            class="tela"
+          />
+        </div>
+        <div id="buttons">
+          <button type="button" onclick="opcao(1)">
+            1 À vista em dinheiro ou cheque, recebe 10% de desconto
+          </button>
+          <button type="button" onclick="opcao(2)">
+            2 À vista no cartão de crédito, recebe 15% de desconto
+          </button>
+          <button type="button" onclick="opcao(3)">
+            3 Em duas vezes, preço normal de etiqueta sem juros
+          </button>
+          <button type="button" onclick="opcao(4)">
+            4 Em duas vezes, preço normal de etiqueta mais juros de 10%
+          </button>
+          <button onclick="calcular()" style="background-color: chartreuse">
+            CALCULAR
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    var juros = 0,
+      desconto = 0;
+
+    function opcao(valor_opcao) {
+      (desconto = 0), (juros = 0);
+      if (valor_opcao === 1) {
+        desconto = 10;
+      } else if (valor_opcao === 2) {
+        desconto = 15;
+      } else if (valor_opcao === 4) {
+        juros = 10;
+      }
+    }
+
+    function calcular() {
+      var valor_inicial = parseFloat(document.getElementById("tela").value);
+      var valor_final =
+        (valor_inicial / 100) * juros -
+        (valor_inicial / 100) * desconto +
+        valor_inicial;
+      document.getElementById("tela_pagamento").value = valor_final;
+    }
+  </script>
+</html>

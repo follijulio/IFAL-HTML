@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+        O programa deverá apresentar um menu com os 
+        nomes e números de quatro candidatos. A medida que o usuário vai
+        selecionando o número do candidato, o voto vai sendo computado
+        e somado a cada um. Para finalizar a votação, o usuário precisa
+        digitar o número zero. Depois de finalizar, o programa deverá
+        mostrar o resultado na tela com todos os votos de cada candidato
+        e quem foi o vencedor.
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    function main() {
+      var resp;
+      var can01 = 0;
+      var can02 = 0;
+      var can03 = 0;
+      var can04 = 0;
+      do {
+        resp = parseInt(
+          prompt(
+            "1 - candidato 01\n2 - candidato 02\n3 - candidato 03\n4 - candidato 04\n"
+          )
+        );
+        switch (resp) {
+          case 1:
+            can01++;
+
+            break;
+          case 2:
+            can02++;
+            break;
+          case 3:
+            can03++;
+            break;
+          case 4:
+            can04++;
+            break;
+        }
+      } while (resp != 0);
+      var resposta = verificar(
+        can01,
+        can02,
+        can03,
+        can04
+      );
+      document.write(re)
+    }
+    function verificar(A, B, C, D) {
+      if (A > B && A > C && A > D) {
+        return "O candidato 1 ganhou";
+      } else if (B > A && B > C && B > D) {
+        return "O candidato 2 ganhou";
+      } else if (C > A && C > B && C > D) {
+        return "O candidato 3 ganhou";
+      } else if (D > A && D > B && D > C) {
+        return "O candidato 4 ganhou";
+      }
+    }
+    main();
+  </script>
+</html>

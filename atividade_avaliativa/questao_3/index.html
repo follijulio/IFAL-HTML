@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h3>CALCULAR VALOR DA COMPRA</h3>
+            <div class="telas">
+                <input placeholder="insira o valor inicial" id="tela" type="number" class="tela">
+                <input placeholder="valor calculado" id="tela_pagamento" type="number" disabled class="tela">
+            </div>
+            <div id="buttons">
+                <button type="button" onclick="opcao(1)">1 À vista em dinheiro ou cheque, recebe 10% de desconto</button>
+                <button type="button" onclick="opcao(2)">2 À vista no cartão de crédito, recebe 15% de desconto</button>
+                <button type="button" onclick="opcao(3)">3 Em duas vezes, preço normal de etiqueta sem juros</button>
+                <button type="button" onclick="opcao(4)">4 Em duas vezes, preço normal de etiqueta mais juros de 10%</button>
+                <button onclick="calcular()" style="background-color: chartreuse;">CALCULAR</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
