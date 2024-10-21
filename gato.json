@@ -1,0 +1,41 @@
+{
+  "funcionario": {
+    "nome": "Gato Felino",
+    "id": "12345",
+    "cargo": "Analista de Sistemas",
+    "departamento": "Tecnologia da Informação",
+    "dataContratacao": "2023-01-15",
+    "salario": 6000.00,
+    "endereco": {
+      "rua": "Rua dos Felinos",
+      "numero": "99",
+      "cidade": "Gatópolis",
+      "estado": "MG",
+      "cep": "12345-678"
+    },
+    "contato": {
+      "telefone": "(31) 99999-9999",
+      "email": "gato.felino@gatopolis.com"
+    },
+    "habilidades": [
+      "Programação",
+      "Análise de Dados",
+      "Gestão de Projetos"
+    ],
+    "projetos": [
+      {
+        "nome": "Sistema de Gestão de Gatos",
+        "descricao": "Desenvolvimento de um sistema para gerenciar informações de adoção de gatos.",
+        "dataInicio": "2023-02-01",
+        "dataFim": "2023-06-30"
+      },
+      {
+        "nome": "Aplicativo Gato Feliz",
+        "descricao": "Criação de um aplicativo para monitorar a saúde e bem-estar dos gatos.",
+        "dataInicio": "2023-07-01",
+        "dataFim": "2023-12-31"
+      }
+    ],
+    "foto": "https://thumbs.dreamstime.com/b/gato-bonito-do-smoking-no-branco-96949694.jpg"
+  }
+}
